@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin Portal</title>
+    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="test.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+<body>
+    <header class="header">
+        <div class="top-bar">
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="site-logo">
+            <img src="logo2.png" alt="BitStream Hub">
+            <h1>BitStream</h1> <br>
+            <h2>Hub</h2>
+        </div>
+        <nav class="navigation">
+            <button id="navButton" class="nav-button"><i class="fas fa-bars"></i></button>
+        </nav>
+        <div class="nav-links">
+            <a href="#">ARTICLES</a>
+            <a href="#">PRO</a>
+            <a href="#">STORE</a>
+            <a href="#">CONFERENCE</a>
+            <a href="#">MINING</a>
+            <a href="#">LEARN</a>
+            <a href="#">BOOKS</a>
+        </div>
+    </header>
+
+    <aside id="sidebar" class="sidebar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </aside>
+
+    <div class="content">
+      <div class="main-layout">
+          <div class="real-time-prices">
+              <h3>Real-Time Prices</h3>
+              <div id="price-container">
+                  <!-- Real-time prices will be displayed here -->
+              </div>
+          </div>
+          <div class="recent-news">
+              <h3>Recent News</h3>
+              <div id="news-container">
+                  <!-- Recent news will be displayed here -->
+              </div>
+          </div>
+          <div class="historical-trends">
+              <h3>Historical Trends</h3>
+              <canvas id="trend-chart">
+                Loading historical data...
+              </canvas>
+              <!-- Historical trends chart or data here -->
+          </div>
+          <div class="quiz-container">
+            <h1>Bitcoin Quiz</h1>
+            <div id="quiz">
+            </div>
+            <button id="next">Next Question</button>
+            <button id="submit" style="display: none;">Submit</button>
+            <div id="result" style="display: none;"></div>
+            <div id="answers" style="display: none;"></div>
+        </div>
+      </div>
+  </div>
+</body>
+</html>

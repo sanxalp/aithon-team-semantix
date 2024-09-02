@@ -1,0 +1,93 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.social-media-icons a {
+  color: #fff;
+  margin-right: 15px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.site-logo-name {
+  display: flex;
+  align-items: center;
+}
+
+.site-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.site-name {
+  font-size: 24px;
+}
+
+.sidebar-button {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.close-btn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  background-color: #444;
+  padding: 10px 0;
+}
+
+.nav-buttons a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+.nav-buttons a:hover {
+  color: #ddd;
+}
